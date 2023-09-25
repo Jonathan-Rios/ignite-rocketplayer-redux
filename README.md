@@ -32,7 +32,7 @@
 <h3 align="center">Imagem prévia da aplicação</h3>
  
 <div align="center">
-  <img src=".github/project-preview.gif?style=flat" alt="Cover" />
+  <img src=".github/project-preview.png?style=flat" alt="Cover" />
 </div>
 
 <br>
@@ -46,12 +46,11 @@ Aplicação para auxiliar na criação de títulos, descrições de vídeos (ou 
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- [ViteJs](https://vitejs.dev/)
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Shadcn](https://ui.shadcn.com/)
+- [Redux](https://redux.js.org/)
 - [Tailwind](https://tailwindcss.com/)
-- [OpenAI-Api](https://openai.com/)
-- [FFmpeg.wasm (WebAssembly)](https://github.com/ffmpegwasm/ffmpeg.wasm)
 
 
 ## 🚀 Como executar
@@ -90,7 +89,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 <h3>Criando o projeto e suas dependências </h3>
 
 ```bash
-  ➜ npm create vite@latest react-redux-zustand --use-npm 
+  ➜ npm create vite@latest ignite-rocketplayer-redux --use-npm 
       Need to install the following packages:
         create-vite@4.4.1
       Ok to proceed? (y) y
